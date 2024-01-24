@@ -7,7 +7,7 @@
  * @param {string} config.url
  * @returns {void}
  */
-function init(config) {
+export function init(config) {
     return;
 }
 
@@ -17,6 +17,6 @@ function init(config) {
  * @returns {number}
  */
 
-function exit(code) {
+export function exit(code) {
     return code + 1;
 }

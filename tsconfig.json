@@ -2,9 +2,10 @@
     "include": ["src"],
     "compilerOptions": {
         "outDir": "build",
+        "esModuleInterop":true,
         "target": "ES6",
-        "lib": ["ES6", "dom"]
-    },
-    "allowJs":true
-
+        "lib": ["ES6", "dom"],
+        "strict": true,
+        "allowJs":true
+    }
 }

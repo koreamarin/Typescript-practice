@@ -1,3 +1,8 @@
 import { init, exit } from "./myPackage"
 
-init()
+init({
+    debug: true,
+    url:"www"
+})
+
+exit(1)
